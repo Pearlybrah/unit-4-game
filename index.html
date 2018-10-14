@@ -6,19 +6,27 @@
     <title>Jewel Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <h1>Your Number to Guess is: <span id="numberGuessed"></span></h1>
+    <br >
+
     <h2>Your Score: <span id="points"></span></h2>
-    <h2 id="results"></h2>
+    <br >
+
+    <h2>Wins: <span id="positive-results"></span></h2>
+    <br >
+
+    <h2>Losses: <span id="negative-results"></span></h2>
+    <br >
+
 
     <div class="crystalBoxes">
-        <!--
-        <img id="crystals" src="images/crystalone.jpg")>
-        <img id="crystals" src="images/crystaltwo.jpg")>
-        <img id="crystals" src="images/crystalthree.jpg")>
-        <img id="crystals" src="images/crystalfour.jpg")>
-        -->
+        <img class="button" id="crystal1" src="images/crystalone.jpg")>
+        <img class="button" id="crystal2" src="images/crystaltwo.jpg")>
+        <img class="button" id="crystal3" src="images/crystalthree.jpg")>
+        <img class="button" id="crystal4" src="images/crystalfour.jpg")>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
